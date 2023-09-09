@@ -1,0 +1,23 @@
+@import 'normalize.css';
+// Need to import font family
+
+:root {
+    //declare color variables
+    --primary: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    // Line-height
+    // Font-family
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    text-rendering: optimizeSpeed;
+}
