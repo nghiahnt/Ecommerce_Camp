@@ -1,12 +1,23 @@
 @import 'normalize.css';
 // Need to import font family
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root {
     //declare color variables
-    --primary: #fff;
+    --primary: #1968c2;
+    --black: #000;
+    --text-color: #333;
+    --white: #fff; 
+
+    // Default layout
+    --default-layout-header-height: 70px;
+    --default-layout-width: 1200px;
+    --default-sidebar-width: 250px;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,9 +26,9 @@ html {
 }
 
 body {
-    // Line-height
-    // Font-family
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5rem;
     text-rendering: optimizeSpeed;
+    color: var(--text-color);
 }

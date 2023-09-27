@@ -1,5 +1,11 @@
+import './dashboard.module.scss'
+
 function Dashboard() {
-    return <h1>The Dashboard page</h1>;
+    return (
+            <div className="container">
+                <h1 className="content">The Dashboard content</h1>
+            </div>
+    );
 }
 
 export default Dashboard;

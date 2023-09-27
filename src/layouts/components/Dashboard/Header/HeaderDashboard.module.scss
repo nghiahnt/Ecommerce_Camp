@@ -1,0 +1,27 @@
+.wrapper {
+    width: 100%;
+    height: var(--default-layout-header-height, 60px);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.inner {
+    height: 100%;
+    width: var(--default-layout-width, 1200px);
+    // background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btn {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
